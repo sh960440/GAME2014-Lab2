@@ -180,15 +180,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6287695535131959048, guid: 684587b9e486398408fe046949611f96, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -350
+      value: -353
       objectReference: {fileID: 0}
     - target: {fileID: 6287695535131959048, guid: 684587b9e486398408fe046949611f96, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80
+      value: -200
       objectReference: {fileID: 0}
     - target: {fileID: 6287695535131959048, guid: 684587b9e486398408fe046949611f96, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 700
+      value: 650
       objectReference: {fileID: 0}
     - target: {fileID: 6287695535131959048, guid: 684587b9e486398408fe046949611f96, type: 3}
       propertyPath: m_SizeDelta.y
@@ -299,11 +299,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3025909660458745477, guid: 9438ba872930f8d4abaec3d26df5c50d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -80
+      value: -200
       objectReference: {fileID: 0}
     - target: {fileID: 3025909660458745477, guid: 9438ba872930f8d4abaec3d26df5c50d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 500
+      value: 450
       objectReference: {fileID: 0}
     - target: {fileID: 3025909660458745477, guid: 9438ba872930f8d4abaec3d26df5c50d, type: 3}
       propertyPath: m_SizeDelta.y
@@ -723,6 +723,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LivesLabel: {fileID: 279319970}
   ScoreLabel: {fileID: 375395382}
+  scaler: {fileID: 855758119}
+  scale: {x: 0, y: 0}
 --- !u!4 &679305633
 Transform:
   m_ObjectHideFlags: 0
@@ -854,7 +856,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1440, y: 2560}
+  m_ReferenceResolution: {x: 1440, y: 3040}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
